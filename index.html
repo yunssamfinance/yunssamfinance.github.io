@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FI414 — Long-Term Financing</title>
+<style>
+  :root {
+    --bg: #f7f7f4;
+    --fg: #1c1c1c;
+    --accent: #2e7d32;
+    --muted: #555;
+    --card: #ffffff;
+    --border: #e3e3e0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    line-height: 1.5;
+  }
+  header {
+    background: var(--accent);
+    color: #fff;
+    padding: 40px 6vw 30px;
+  }
+  header h1 {
+    margin: 0 0 6px;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  header p {
+    margin: 0;
+    opacity: 0.9;
+    font-size: 15px;
+  }
+  main {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 30px 5vw 60px;
+  }
+  section {
+    margin-top: 32px;
+  }
+  section h2 {
+    font-size: 18px;
+    margin: 0 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--accent);
+    color: var(--accent);
+  }
+  ul.decks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 12px;
+  }
+  ul.decks li {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 14px 16px;
+    transition: border-color 0.15s, transform 0.15s;
+  }
+  ul.decks li:hover {
+    border-color: var(--accent);
+    transform: translateY(-1px);
+  }
+  ul.decks a {
+    display: block;
+    color: var(--fg);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 4px;
+  }
+  ul.decks a:hover {
+    color: var(--accent);
+  }
+  ul.decks .meta {
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .intro {
+    background: #fff;
+    border-left: 3px solid var(--accent);
+    padding: 14px 18px;
+    border-radius: 0 4px 4px 0;
+    font-size: 14px;
+    color: var(--muted);
+  }
+  footer {
+    border-top: 1px solid var(--border);
+    margin-top: 60px;
+    padding: 20px 5vw;
+    text-align: center;
+    color: var(--muted);
+    font-size: 12px;
+  }
+  code.kbd {
+    background: #eee;
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 12px;
+    font-family: "SF Mono", Consolas, monospace;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>FI414 — Long-Term Financing</h1>
+  <p>Course materials · Hayong Yun · Spring 2026</p>
+</header>
+
+<main>
+
+  <div class="intro">
+    Click any deck to open the slides in your browser. Use the arrow keys to navigate, or press <code class="kbd">F</code> for full-screen and <code class="kbd">Esc</code> to exit. Each file is self-contained HTML that works offline once loaded.
+  </div>
+
+  <section>
+    <h2>Lecture Slides</h2>
+    <ul class="decks">
+      <li>
+        <a href="lecture/L3_CH15_LongTermFinancing2.html">Chapter 15 — Long-Term Financing (Part 2)</a>
+        <div class="meta">Cash flow vs control rights · dual-class · pyramids · cross-ownership</div>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Practice and Exam Review</h2>
+    <ul class="decks">
+      <li>
+        <a href="exam/FI414_L3_OldExamQuestions_CrossOwnership.html">Old Exam Questions — Cross-Ownership</a>
+        <div class="meta">Three practice problems with solutions</div>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Article Summaries</h2>
+    <ul class="decks">
+      <li>
+        <a href="articles/L3_CH15_Google_WSJ24AUG2004.html">Betting on Google's Future (WSJ, 2004)</a>
+        <div class="meta">Eisenmann on Google's dual-class IPO</div>
+      </li>
+      <li>
+        <a href="articles/L3_CH15_KoreaHerald20201025_SamsungInheritanceTax.html">Samsung Inheritance Tax (Korea Herald, 2020)</a>
+        <div class="meta">Chairman Lee Kun-hee's death and the 10+ trillion won tax bill</div>
+      </li>
+      <li>
+        <a href="articles/L3_CH15_wsj20120822_TootsiesRoll.html">Tootsie's Secret Empire (WSJ, 2012)</a>
+        <div class="meta">Kesling on Gordon family control via class B shares</div>
+      </li>
+      <li>
+        <a href="articles/L3_CH15_wsj20150121_TootsiesRollCEOdies.html">Tootsie Roll CEO Dies (WSJ, 2015)</a>
+        <div class="meta">Melvin Gordon dies at 95; stock jumps on takeover speculation</div>
+      </li>
+      <li>
+        <a href="articles/L3_CH15_wsj2017_CaseForNonvotingStock.html">The Case for Nonvoting Stock (WSJ, 2017)</a>
+        <div class="meta">Lund's defense of dual-class structures as voter-sorting</div>
+      </li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  FI414 Long-Term Financing · Course materials by Hayong Yun
+</footer>
+
+</body>
+</html>
